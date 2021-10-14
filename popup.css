@@ -1,0 +1,40 @@
+/*popup表示させたいコンテンツのレイアウトと位置*/
+#popup{
+  width:80%;
+  height: 61%;
+  line-height:100px;
+  padding:0%;
+  box-sizing:border-box;
+  display:none;
+  position:fixed;
+  top:50%;
+  left:50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 0 9999px rgba(0, 0, 0, .8);
+  z-index: 10;
+}
+
+img{
+  width:100%;
+}
+label{
+  display:block;
+}
+
+.center{
+  text-align: center;
+  padding-top: 2%;
+}
+
+label span:hover{
+  cursor:pointer;
+}
+input[type="checkbox"]{
+  display:none;
+}
+/*checkboxがチェックの状態になったらpopupを表示させる*/
+input[type="checkbox"]:checked + #popup{
+  display:block;
+}
+
