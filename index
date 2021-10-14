@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Senryu</title>
+        <link rel="stylesheet" href="./style2.css">
+        <link rel="stylesheet" href="./hmenu.css">  
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+        <link rel="stylesheet" type="text/css" href="./car1.css"> 
+        <link rel="stylesheet" href="./fadein.css">
+        <link rel="stylesheet" href="./popup.css">
+        <!-- <link rel="stylesheet" href="./conftti.css"> -->
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous">
+        </script> 
+        <link rel="stylesheet" type="text/css" href="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/3-2-3-1/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/3-2-3-1/css/3-2-3-1.css">
+    </head>
+
+    <body class="body1" bgcolor="black">
+
+        <header>
+            <div class="hamburger-menu">
+                <input type="checkbox" id="menu-btn-check">
+                <label for="menu-btn-check" class="menu-btn"><span></span></label>
+                <!--ここからメニュー-->
+            <div class="menu-content">
+                <ul class="font">
+                    <li>
+                        <a href="./geikoten.html">トップ</a>
+                    </li>
+                    <li>
+                        <a href="./senryu.html">川柳</a>
+                    </li>
+                    <li>
+                        <a href="#">大喜利</a>
+                    </li>
+                    <li>
+                        <a href="#">参加</a>
+                    </li>
+                </ul>
+            </div>
+            <!--ここまでメニュー-->
+            </div>
+        </header>
+
+        <div class="box1">
+            <img class="img" src="../images/senryutop.png">
+        </div>
+
+        <div class="box2">
+            <div class="bar"></div>
+            <p class="tex1">お題</p>
+            <div class="line1"></div>
+            <p class="tex2-1">思い出</p>
+            <div class="line2"></div>
+            <p class="tex2-2">芸工</p>
+        </div>
+
+        <div class="box3 fadeUpTrigger">
+            <img class="gloup1" src="../images/gcloud1.png">
+            <img class="img2" src="../images/senryuodaibg1.png">
+            <p class="subtitle">思い出</p>
+
+        </div>
+        <div class="cbox">
+            <ul class="slider">
+                <li><img src="../images/answers/omoide4.png" alt=""></li>
+                <li><img src="../images/answers/omoide5.png" alt=""></li>
+                <li><img src="../images/answers/omoide6.png" alt=""></li>
+                <li><img src="../images/answers/omoide7.png" alt=""></li>
+                <li><img src="../images/answers/omoide8.png" alt=""></li>
+                <li><img src="../images/answers/omoide9.png" alt=""></li>
+                <!--/slider-->
+            </ul>
+        </div>
+
+        <div class="box4">
+            <label class="no1">
+                <p class="center">最優秀賞</p>
+                <input type="checkbox" name="checkbox">
+                <div id="popup"><img src="../images/answers/omoide1.png" alt="" /></div>
+            </label>
+
+            <label class="no2">
+                <p class="center">優秀賞</p>
+                <input type="checkbox" name="checkbox">
+                <div id="popup"><img src="../images/answers/omoide2.png" alt="" /></div>
+            </label>
+
+            <label class="no3">
+                <p class="center">特別賞</p>
+                <input type="checkbox" name="checkbox">
+                <div id="popup"><img src="../images/answers/omoide3.png" alt="" /></div>
+            </label>
+        </div>
+
+        <div class="box3 fadeUpTrigger">
+            <img class="gloup1" src="../images/gcloud2.png">
+            <img class="img2" src="../images/senryuodaibg2.png">
+            <p class="subtitle">芸工</p>
+
+        </div>
+
+        <div class="cbox">
+            <ul class="slider">
+                <li><img src="../images/answers/geiko4.png" alt=""></li>
+                <li><img src="../images/answers/geiko5.png" alt=""></li>
+                <li><img src="../images/answers/geiko6.png" alt=""></li>
+                <li><img src="../images/answers/geiko7.png" alt=""></li>
+                <li><img src="../images/answers/geiko8.png" alt=""></li>
+                <li><img src="../images/answers/geiko9.png" alt=""></li>
+                <!--/slider-->
+            </ul>
+        </div>
+
+        <div class="box4">
+            <label class="no1">
+                <p class="center">最優秀賞</p>
+                <input type="checkbox" name="checkbox">
+                <div id="popup"><img src="../images/answers/geiko1.png" alt="" /></div>
+            </label>
+
+            <label class="no2">
+                <p class="center">優秀賞</p>
+                <input type="checkbox" name="checkbox">
+                <div id="popup"><img src="../images/answers/geiko2.png" alt="" /></div>
+            </label>
+
+            <label class="no3">
+                <p class="center">特別賞</p>
+                <input type="checkbox" name="checkbox">
+                <div id="popup"><img src="../images/answers/geiko3.png" alt="" /></div>
+            </label>
+        </div>
+
+        <div class="box5">
+            <div class="blue"></div>
+            <button class="join">参加する</button>
+        </div>
+
+        <div class="endbox">
+			<img onclick="location.href='https://instagram.com/geikoten2021'" class="inst" src="../images/insticon.png" alt="">
+			<img onclick="location.href='https://twitter.com/geik0'" class="twi" src="../images/twiicon.png" alt="">
+		</div>
+
+        <!-- カルーセル -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="./car2.js"></script>
+
+        <!-- あにめ -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+		<script src="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/3-2-3-1/js/3-2-3-1.js"></script>
+		<script src="./fadein.js"></script>
+
+        <!-- 紙吹雪 -->
+        <!-- <script src="./confetti.js"></script> -->
+    </body>
+</html>
+
