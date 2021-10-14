@@ -36,5 +36,5 @@ input[type="checkbox"]{
 /*checkboxがチェックの状態になったらpopupを表示させる*/
 input[type="checkbox"]:checked + #popup{
   display:block;
-}
+} 
 
